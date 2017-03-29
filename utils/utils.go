@@ -61,7 +61,7 @@ func LoadFiles(root string, ignoreFile []byte) (files []string, err error) {
 		return nil
 	})
 
-	return
+	return err
 }
 
 // GetRegion attempts loading the AWS region from ~/.aws/config.
